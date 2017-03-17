@@ -38,6 +38,46 @@ var simplifiedJson = [
   },
   {
     "journalEntry":"3",
-    "date"
+    "date": "September 2, 2016",
+    "title": "HTML&CSS",
+    "content": "HTML is. CSS is like positioning your material. So its like CSS creates the layout of your content. It can make yur content on the side bar with another content on the bottom of it. So you woukd just have to enter commands on where you want the content to your desire. Also with CSS you can change the way it looks. Meaning you can change the font color and the backround of your content. For example with all I've said, you cabn make your content characters purle with the backround black and position it to left of the page with another content right under it."
+  },
+  {
+    "journalEntry": "4",
+    "date": "Semptember 28, 2016",
+    "title": "Responsive Design",
+    "content": "Responsive Design is when how the design will respond to how you change the window size. So the design can change its font size, change the width and height of tyhe content. Also this can hide some of the side divs and you would have to access this nav someway else. Mobile design is how the design of a web application will be displayed on the mobile device. So some of the features may be missing but that would be because of the smaller screen size. However, the content will be simple to use, the font size could be bigger that way you can select them easier since you are using your finger rather than a cursor."
+  },
+  {
+    "journalEntry": "5",
+    "date": "October 7, 2016",
+    "title": "Response on Digimon Go",
+    "content": "Digimon Go was a project where we had to create what looked like a info page on Digimon Go. It consisted of how to download the app, what it was about and what were some new stuff on the app. So with the html part it was pretty simple. Mostly because the html mostly consisted of lists. However the CSS part of the project was more difficult towards me. I had trouble on the postioning off the content. Also I had trouble on trying to fix the padding and the margins. So I had to get help from my friend to get a better understading on those things."
+  },
+  {
+    "journalEntry": "6",
+    "date": "October 7, 2016",
+    "title": "Response on Media Queries",
+    "content": "Media Queries allows you to change the appearance of the design according to certai variables. Such as the screen size. You can have the media querie be able to change the color of the text, background color, even the text size when the size of the screen changes. This would then be a responsive design, where the design would respond to the size of the screen and respond with changes to the design."
+  },
+  {
+    "journalEntry": "7",
+    "date": "Novmber 2, 2016",
+    
   }
 ]
+
+/*
+Create function nabmed showAll
+pass one parameter (data)
+
+  Inside te function
+  Iterate thorugh data
+    for each object create elements
+    create parent div
+      with the id '#entry-' +object.id
+    create a h1
+      append/add text inner.HTML object.title to h1 
+    repeat for every value.
+    append all elements + values to the parent div
+*\
